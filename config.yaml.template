@@ -1,0 +1,16 @@
+mysql_tripwire:  # required: for building the edges.csv file
+    host: '127.0.0.1'
+    port: 3306
+    user: 'user'
+    passwd: 'pass'
+    db: 'tripwire'
+    charset: 'utf8'
+mysql_sde:  # optional: for re-building the nodes.csv file
+    host: '127.0.0.1'
+    port: 3306
+    user: 'user'
+    passwd: 'pass'
+    db: 'eve_sde'
+    charset: 'utf8'
+tripwire:
+    mask: None  # ex. '1.0'
